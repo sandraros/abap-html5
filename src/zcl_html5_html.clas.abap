@@ -1,0 +1,17 @@
+"! <p class="shorttext synchronized" lang="en">Element</p>
+CLASS zcl_html5_html DEFINITION
+  INHERITING FROM zcl_html5_element_normal
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+
+ENDCLASS.
+
+
+
+CLASS ZCL_HTML5_HTML IMPLEMENTATION.
+ENDCLASS.
