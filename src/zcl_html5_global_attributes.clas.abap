@@ -1,4 +1,5 @@
 "! <p class="shorttext synchronized" lang="en">Global attributes</p>
+"! Specification at https://html.spec.whatwg.org/multipage/dom.html#global-attributes
 CLASS zcl_html5_global_attributes DEFINITION
   PUBLIC
   FINAL
@@ -24,7 +25,9 @@ CLASS zcl_html5_global_attributes IMPLEMENTATION.
 
 
   METHOD set_access_key.
+
     me->access_keys = access_keys.
+
   ENDMETHOD.
 
 
